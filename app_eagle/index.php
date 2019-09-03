@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['update_time'])) {
-    $str = 'appip_bbupup 2019-08-19 10-23-20';
+    $str = 'appip_bbupup 2019-09-19 10-23-20';
     $time_array = explode(' ', $str);
     array_shift($time_array);
     $time_array[1] = str_replace('-', ':', $time_array[1]);
