@@ -7,7 +7,6 @@ if (isset($_GET['update_time'])) {
     $time_str = $time_array[0] . ' ' . $time_array[1];
     $time = strtotime($time_str);
     echo strtotime('-120 second', $time);
-
     exit;
 }
 ?>
